@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.common-btn{
+    background-color: blue;
+    color: white;
+    padding: 8px 35px;
+    border-radius: 12px;   
+    border: none;
+}
+/* nav start */
+nav div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    margin: 15px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* nav end */
+/* hero section start */
+header{
+    background-image: url('./assets/banner.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
